@@ -1,10 +1,12 @@
 import React from 'react';
+import Headers from './components/Headers/Headers';
+import './style.css'
 
 function App () {
   
     return (
-      <div >
-        <h3>Law Firm</h3>         
+      <div>
+        <Headers />
       </div>
     );
 }
