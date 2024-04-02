@@ -1,0 +1,77 @@
+.practiceContainer{
+    width: 80%;
+    color:var(--white-color);
+    margin-bottom:150px;
+}
+
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:16px;
+}
+
+.gridContainer > div {
+    /* background-color: var(--white-color); */
+    height:320px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding-bottom: 1.5rem;
+}
+
+.item1{
+    grid-column-start:1;
+    grid-column-end:3;
+    background-image: url('../../assets/Rectangle\ 3652.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center ;
+    opacity: 0.8;
+    
+     
+}
+
+
+
+.item2{
+    background-image: url('../../assets/Rectangle\ 3651.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.item3{
+    background-image: url('../../assets/Rectangle\ 3653.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+
+.item4{
+   grid-column-start:2;
+   grid-column-end:4;
+   background-image: url('../../assets/Rectangle\ 3654.png');
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center;
+}
+
+.item5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url('../../assets/Rectangle\ 3656.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.item6{
+    background-image: url('../../assets/Rectangle\ 3655.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
