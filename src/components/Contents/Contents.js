@@ -7,10 +7,10 @@ export default function Contents() {
   return (
     <div className={style.container} >
         <div className={style.titleContainer} >
-           <Typography variant='h4' gutterBottom sx={{ fontWeight:500}} >
+           <Typography variant='h2' gutterBottom sx={{ fontWeight:500}} >
               You don’t have to 
            </Typography>
-           <Typography variant='h4' gutterBottom sx={{ fontWeight:700}} >
+           <Typography variant='h2' gutterBottom sx={{ fontWeight:700}} >
               Fight them Alone.
            </Typography>
            <Typography className={style.subtitle} variant='subtitle1' gutterBottom >

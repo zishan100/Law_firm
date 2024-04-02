@@ -1,0 +1,45 @@
+.cards{
+    /* width:29%; */
+    height:380px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1px ridge #6A6A6A;
+    border-radius: 14px;
+    padding:1rem;
+    margin:0rem .5rem;
+}
+
+.cardTitle{
+    margin-top:1rem;
+}
+
+.cardIcon{
+    width:62px;
+    height:62px;
+}
+
+.giftIcon{
+    width:100px;
+    height:100px;
+    background-color: var(--white-color);
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle2{
+    opacity: 30%;
+}
+
+.customButton{
+    background-color:var(--yellow-color);
+    border:none;
+    width:121px;
+    height:43px;
+    border-radius: 23.5px;
+    cursor:pointer;
+    font-weight: 600;
+    margin-top:1rem;
+}
